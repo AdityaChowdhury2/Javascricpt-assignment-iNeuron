@@ -18,7 +18,7 @@ innerFunc();
 // The output of this program is 100 will be show as alert in the web browser.
 //2. What is the difference between a closure and a scope ?
 /* -------------Answer-------------*/
-/* When a function is created within another function, the inner function is called closure. This closure is generally returned so that the outer function's variables can be used later. On the other hand, a scope defines which variables you can access. Global scope and local scope are the two types of scope. */ 
+/* When a function is created within another function, the inner function is called closure. This closure is generally returned so that the outer function's variables can be used later. On the other hand, a scope defines which variables you can access. Global scope and local scope are the two types of scope. */
 //3. What is a lexical scope and how is it related to closure?
 /* -------------Answer-------------*/
 /* Lexical scope describes how nested functions have access to variables defined in parent scopes. Lexical scope is one part of Closure. Where Closure has lexical scope and it can use this even after the parent function is closed */
