@@ -2,7 +2,8 @@
 const readline = require("readline-sync");
 
 const numArray = [];
-for (let i = 0; i < 5; i++) numArray.push(Number(readline.question()));
+for (let i = 0; i < 5; i++)
+	numArray.push(Number(readline.question("Please enter a number: ")));
 // console.log(numArray);
 let evenSum = 0;
 let oddSum = 0;
